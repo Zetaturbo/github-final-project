@@ -1,25 +1,23 @@
-# Simple Interest Calculator
+# Paradise Nursery Shopping Application
 
-A simple bash script that calculates simple interest given principal, annual rate of interest and time period in years.
+Paradise Nursery is a premier online store for high-quality houseplants. Our mission is to bring the beauty and benefits of nature into every home.
 
-## Description:
-This project is a micro-finance tool designed to empower individuals by providing a quick way to calculate interest on loans or savings.
+## Features
+- **Lush Catalog**: Browse a variety of plants organized by categories.
+- **Dynamic Shopping Cart**: Add, remove, and update quantities with ease.
+- **Modern UI**: A premium, responsive experience built with React and Framer Motion.
+- **State Management**: Powered by Redux Toolkit.
 
-## Input:
-* `p`: principal amount
-* `t`: time period in years
-* `r`: annual rate of interest
+## Project Structure
+- `App.jsx`: Main entry point and routing.
+- `ProductList.jsx`: The plant catalog.
+- `CartItem.jsx`: Shopping cart management.
+- `CartSlice.jsx`: Redux state management.
+- `AboutUs.jsx`: Company information.
 
-## Output:
-* `simple interest`: p * t * r / 100
-
-## How to run:
-1. Ensure you have `bc` installed (for decimal calculations).
-2. Make the script executable:
-   ```bash
-   chmod +x simple-interest.sh
-   ```
-3. Run the script:
-   ```bash
-   ./simple-interest.sh
-   ```
+## Technology Stack
+- React
+- Redux Toolkit
+- Vite
+- Framer Motion
+- Lucide React

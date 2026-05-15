@@ -1,0 +1,46 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.landing-content {
+  max-width: 800px;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.landing-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.landing-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.divider {
+  width: 100px;
+  height: 4px;
+  background: var(--primary-green);
+  margin: 1.5rem auto;
+  border-radius: 2px;
+}
